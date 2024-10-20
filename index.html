@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="logo">
+        <p>ЛОГОТИП</p>
+    </div>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <ol>
+            <li><a class="source source-1">Иван</a></li>
+            <li><a class="source source-2">Некит</a></li>
+            <li><a class="source source-3">Ксений</a></li>
+        </ol>
+    </nav>
+    <!-- Содержимое -->
+    <div class="container">
+        <!-- Иван -->
+        <div class="target target-1">
+            <div class="MyInfo">
+                <div class ="Photo">
+                    <img class="MyPhoto" src="me.png" width="200" alt="тут должен быть я">
+                </div>
+                <div class="Messangers">
+                    <h1 style="margin-top: 55px; margin-bottom: 55px;">Иван Катавае</h1>
+                    <h3><span style="text-decoration: line-through; text-decoration-color: rgb(52, 3, 130);">Пишите</span> не звоните:</h3>
+                    <a href="https://vk.com/ivanesns" target="_blank">VK</a>
+                    |
+                    <a href="https://t.me/ivanesnsk" target="_blank">Telegram</a>
+                </div>
+            </div>
+            <table class="table first">
+                <h3 class="info">Обо мне:</h3>
+                <thead>
+                    <tr>
+                        <th>Возраст</th>
+                        <th>Откуда</th>
+                        <th>Cын</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>23 года</td>
+                        <td>Дизайнер из Санкт-Петербурга</td>
+                        <td>Да</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table second">
+                <thead>
+                    <tr>
+                        <th>Яблоко</th>
+                        <th>Никторинка</th>
+                        <th>Ягода</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Апельсин</td>
+                        <td>Мандаринка</td>
+                        <td>Арбуз</td>
+                    </tr>
+                    <tr>
+                        <td>Груша</td>
+                        <td>Киви</td>
+                        <td>Дыня</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                <button id="btn me" class="btn me">Заказать меня</button>
+            </p>
+        </div>
+        <!-- Некит -->
+        <div class="target target-2">
+            <div class="MyInfo">
+                <div class ="Photo">
+                    <img class="MyPhoto" src="he.jpg" width="200" alt="тут должен быть я">
+                </div>
+                <div class="Messangers">
+                    <h1 style="margin-top: 55px; margin-bottom: 55px;">Некит Балдуве</h1>
+                    <h3><span style="text-decoration: line-through; text-decoration-color: rgb(52, 3, 130);">На созвоне</span> не берите:</h3>
+                    <a href="https://vk.com/pinkishcafe" target="_blank">VK</a>
+                    |
+                    <a href="https://t.me/sbsshopabakan" target="_blank">Telegram</a>
+                </div>
+            </div>
+            <table class="table first">
+                <h3 class="info">Оба мне:</h3>
+                <thead>
+                    <tr>
+                        <th>Возраст</th>
+                        <th>Откуда</th>
+                        <th>Иноагент</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30 лет</td>
+                        <td>Поплавец из Кургана</td>
+                        <td>Современный</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <label for="text">Оставьте отзыв пж</label>
+                <br>
+                <textarea name="text" id="text" cols="50" rows="5" placeholder="Например: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus, perferendis culpa quas doloribus, distinctio minima incidunt mollitia delectus nesciunt nemo dolores vero"></textarea>
+            </div>
+            <p>
+                <button id="btn he" class="btn he">Отозвать меня</button>
+            </p>
+        </div>
+        <!-- Ксений -->
+        <div class="target target-3">
+            <div class="MyInfo">
+                <div class ="Photo">
+                    <img class="MyPhoto" src="she.jpg" width="200" alt="тут должен быть я">
+                </div>
+                <div class="Messangers">
+                    <h1 style="margin-top: 55px; margin-bottom: 55px;">Ксений Рябове</h1>
+                    <h3><span style="text-decoration: line-through; text-decoration-color: rgb(52, 3, 130);">На связи</span> оборвите:</h3>
+                    <a href="https://vk.com/id148211215" target="_blank">VK</a>
+                    |
+                    <a href="https://t.me/katavaya" target="_blank">Telegram</a>
+                </div>
+            </div>
+            <table class="table first">
+                <h3 class="info">Обо мне:</h3>
+                <thead>
+                    <tr>
+                        <th>Возраст</th>
+                        <th>Откуда</th>
+                        <th>Cын</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13 лет</td>
+                        <td>Старший аграном из Калифорнии</td>
+                        <td>НЕТ!</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <label for="status">Установите мне статус пж</label>
+                <br>
+                <input type="status" id="status" maxlength="27" placeholder="Например: Lorem ipsum dolor">
+            </div>
+            <ul id="listStatus">
+            </ul>
+            <p>
+                <button id="btn she" class="btn she">Установить меня</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
